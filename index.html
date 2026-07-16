@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather_App</title>
+    <link rel="icon" href="weather.png" sizes="16*16">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <center>
+        <h1><tt>Weather_App</tt></h1>
+        </center>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Weather_Condition</legend>
+            <center>
+                <form action="" method="post">
+                    <table border="7">
+                        <tr>
+                            <td><label for="A">City</label></td>
+                            <td><input type="text" placeholder="Enter City" id="A"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button type="button" onclick="getWeather()">Search</button></td>
+                        </tr>
+                    </table>
+                </form>
+                <div id="result"></div>
+            </center>
+        </fieldset>
+        
+
+    </div>
+    <br>
+    <br>
+    <script src="script.js"></script>
+    
+</body>
+</html>
